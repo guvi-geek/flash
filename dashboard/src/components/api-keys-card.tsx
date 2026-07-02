@@ -23,7 +23,7 @@ import {
 
 // ApiKeysCard is the credential-lifecycle UI: mint named org keys (the raw key
 // is shown exactly once — only its hash is stored server-side), see when each
-// was last used, and revoke. The E2B/Daytona "API Keys" settings page.
+// was last used, and revoke.
 export function ApiKeysCard() {
   const [keys, setKeys] = useState<ApiKeyRow[] | null>(null);
   const [error, setError] = useState<string | null>(null);

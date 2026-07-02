@@ -15,7 +15,7 @@ ARCH="$(docker version --format '{{.Server.Arch}}')"   # amd64 | arm64
 build_toolbox_into() {
   local dst="$1"
   CGO_ENABLED=0 GOOS=linux GOARCH="${ARCH}" \
-    go build -ldflags="-s -w" -o "${dst}/toolbox" ./cmd/toolbox
+    go build -trimpath -ldflags="-s -w" -o "${dst}/toolbox" ./cmd/toolbox
 }
 
 build_one() {
