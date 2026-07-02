@@ -8,7 +8,8 @@ product. On top of the generic engine sits the assessment layer (candidate
 sessions, submit → automated scoring) it was originally built for.
 
 > Setting up a local dev environment? See [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md).
-> Want to contribute? See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+> Want to contribute? See [`CONTRIBUTING.md`](CONTRIBUTING.md). Curious what's
+> planned but not built yet? See [`ROADMAP.md`](ROADMAP.md).
 
 ## SDKs
 
