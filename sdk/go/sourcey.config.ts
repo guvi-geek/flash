@@ -11,6 +11,7 @@ import { defineConfig } from "sourcey";
 // back to the committed godoc.json otherwise, so CI and contributors without
 // the Go toolchain can still build the docs.
 export default defineConfig({
+  prettyUrls: "strip",
   name: "Flash Go SDK",
   // Enables source links from generated API symbols back to the Go source.
   repo: "https://github.com/guvi-geek/flash",
